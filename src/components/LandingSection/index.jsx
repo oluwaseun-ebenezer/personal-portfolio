@@ -1,4 +1,4 @@
-import landingIllustration from '../../assets/vectors/landing-il.svg'
+import landingIllustration from "../../assets/vectors/landing-il.svg";
 
 import "./LandingSection.css";
 
@@ -36,22 +36,29 @@ const LandingSection = () => {
       </header>
       <main className="landing">
         <article>
-          <h2 className="main-heading">Hey, I'm am <span className="orange">Oluwaseun Aderinlokun</span></h2>
-          <h3 className="sub-heading">I am a <span className="green">MERN Stack Developer</span></h3>
+          <h2 className="main-heading">
+            Hey, I'm am <span className="orange">Oluwaseun Aderinlokun</span>
+          </h2>
+          <h3 className="sub-heading">
+            I am a <span className="green">MERN Stack Developer</span>
+          </h3>
         </article>
-        <img src={landingIllustration} alt="Landing Illustration" className="landing-il" />
+        <img
+          src={landingIllustration}
+          alt="Landing Illustration"
+          className="landing-il"
+        />
         <a data-scroll href="#projects" className="chevron">
-            <div className="mouse_scroll">
-
-                <div className="mouse">
-                    <div className="wheel"></div>
-                </div>
-                <div>
-                    <span className="m_scroll_arrows unu"></span>
-                    <span className="m_scroll_arrows doi"></span>
-                    <span className="m_scroll_arrows trei"></span>
-                </div>
+          <div className="mouse_scroll">
+            <div className="mouse">
+              <div className="wheel"></div>
             </div>
+            <div>
+              <span className="m_scroll_arrows unu"></span>
+              <span className="m_scroll_arrows doi"></span>
+              <span className="m_scroll_arrows trei"></span>
+            </div>
+          </div>
         </a>
       </main>
     </section>

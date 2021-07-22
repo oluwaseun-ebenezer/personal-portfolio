@@ -1,6 +1,6 @@
-import LandingSection from './components/LandingSection'
+import LandingSection from "./components/LandingSection";
 
-import './App.css';
+import "./App.css";
 
 const App = () => {
   return (
@@ -8,6 +8,6 @@ const App = () => {
       <LandingSection />
     </main>
   );
-}
+};
 
 export default App;
