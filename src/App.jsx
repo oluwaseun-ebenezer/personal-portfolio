@@ -1,10 +1,12 @@
+import LandingSection from './components/LandingSection'
+
 import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <main>
+      <LandingSection />
+    </main>
   );
 }
 
