@@ -9,7 +9,7 @@ const LandingSection = () => {
         <nav>
           <ul className="nav-links">
             <li className="nav-link">
-              <a data-scroll href="#home">
+              <a data-scroll href="#landing">
                 Home
               </a>
             </li>
@@ -37,7 +37,7 @@ const LandingSection = () => {
       <main className="landing">
         <article>
           <h2 className="main-heading">
-            Hey, I'm am <span className="orange">Oluwaseun Aderinlokun</span>
+            Hey, I am <span className="orange">Oluwaseun Aderinlokun</span>
           </h2>
           <h3 className="sub-heading">
             I am a <span className="green">MERN Stack Developer</span>

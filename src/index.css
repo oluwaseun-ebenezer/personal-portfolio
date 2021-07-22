@@ -8,6 +8,10 @@ body {
   background-color: #f5f6fd;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
