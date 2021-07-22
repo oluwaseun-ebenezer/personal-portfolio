@@ -1,8 +1,18 @@
-import landingIllustration from "../../assets/vectors/landing-il.svg";
+import gsap from "gsap";
+import { useEffect } from "react";
 
+import landingIllustration from "../../assets/vectors/landing-il.svg";
 import "./LandingSection.css";
 
 const LandingSection = () => {
+  useEffect(() => {
+    const t1 = gsap.timeline();
+
+    t1.from(".main-heading", { opacity: 0, duration: 1.5, x: -100 }).from(
+      ".sub-heading",
+      { opacity: 0, duration: 1.5, x: -100 }
+    );
+  }, []);
   return (
     <section id="landing">
       <header className="navbar">
